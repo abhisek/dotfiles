@@ -1,0 +1,5 @@
+PACKAGES_TO_INSTALL=(
+  keychain
+ )
+
+ yay -S $PACKAGES_TO_INSTALL

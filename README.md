@@ -8,6 +8,12 @@ cd ~/.local/share && \
 git clone git@github.com:abhisek/dotfiles.git dotfiles
 ```
 
+Install the required packages
+
+```bash
+./init.sh
+```
+
 Add the following to `~/.bashrc`:
 
 ```bash
