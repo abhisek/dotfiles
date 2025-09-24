@@ -1,0 +1,1 @@
+alias pbcopy="wl-copy"

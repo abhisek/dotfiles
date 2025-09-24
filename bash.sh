@@ -3,6 +3,7 @@ SELF=$(dirname "${BASH_SOURCE[0]}")
 
 # Bash specific scripts
 source "$SELF/bash/git.sh"
+source "$SELF/bash/copy.sh"
 
 # Common scripts
 source "$SELF/common/ssh-agent.sh"
