@@ -73,7 +73,7 @@ alias gg='git gui citool'
 alias gga='git gui citool --amend'
 
 alias ggpull='git pull origin "$(git_current_branch)"'
-alias ggpush='git push origin "$(git_current_branch)"'
+alias ggpush='git push origin "$(git branch --show-current)"'
 
 alias ggsup='git branch --set-upstream-to=origin/$(git_current_branch)'
 alias gpsup='git push --set-upstream origin $(git_current_branch)'
@@ -178,5 +178,3 @@ alias glum='git pull upstream main'
 
 alias gwch='git whatchanged -p --abbrev-commit --pretty=medium'
 alias gwip='git add -A; git rm $(git ls-files --deleted) 2> /dev/null; git commit --no-verify --no-gpg-sign -m "--wip-- [skip ci]"'
-
-
