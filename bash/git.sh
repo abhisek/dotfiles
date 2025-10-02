@@ -72,7 +72,7 @@ alias gfg='git ls-files | grep'
 alias gg='git gui citool'
 alias gga='git gui citool --amend'
 
-alias ggpull='git pull origin "$(git_current_branch)"'
+alias ggpull='git pull origin "$(git branch --show-current)"'
 alias ggpush='git push origin "$(git branch --show-current)"'
 
 alias ggsup='git branch --set-upstream-to=origin/$(git_current_branch)'
